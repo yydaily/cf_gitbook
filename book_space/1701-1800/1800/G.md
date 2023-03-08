@@ -2,7 +2,7 @@
 
 Kid was gifted a tree of $$$n$$$ vertices with the root in the vertex $$$1$$$. Since he really like *symmetrical* objects, Kid wants to find out if this tree is *symmetrica*.
 
-> Kid获得了根节点编号为 $$$1$$$ ，总共有 $$$n$$$ 个节点的树作为礼物。由于他喜欢堆成结构，他想知道这颗树是否是对称的。
+> Kid获得了根节点编号为 $$$1$$$ ，总共有 $$$n$$$ 个节点的树作为礼物。由于他喜欢对称结构，他想知道这颗树是否是对称的。
 
 ![](https://espresso.codeforces.com/8b2c94254f484755f4b58c83063231999ed42798.png)
 
@@ -22,7 +22,9 @@ Formally, a tree is *symmetrical* if there exists an order of children such that
 
 - The subtree of the leftmost child of the root is a mirror image of the subtree of the rightmost child; 
 - the subtree of the second-left child of the root is a mirror image of the subtree of the second-right child of the root; 
+
 - ... 
+
 - if the number of children of the root is odd, then the subtree of the middle child should be *symmetrical*. 
 
 > 1. 根节点最左边的子树和最右边的子树是对称的。
@@ -42,7 +44,7 @@ The first line of each case contains an integer $$$n$$$ ($$$1 \le n \le 2 \cdot 
 
 The following $$$n-1$$$ lines contain two integers each $$$u$$$ and $$$v$$$ ($$$1 \le u, v \le n$$$, $$$u \neq v$$$) — indices of vertices connected by an edge.
 
-> 接下来 $$$n-1$$$ 行，每行两个整数 $$$u$$$ 和 $$$v$$$ ($$$1 \le u, v \le n$$$, $$$u \neq v$$$) —— 白哦是一条边对应的两个端点。
+> 接下来 $$$n-1$$$ 行，每行两个整数 $$$u$$$ 和 $$$v$$$ ($$$1 \le u, v \le n$$$, $$$u \neq v$$$) —— 表示一条边对应的两个端点。
 
 It is guaranteed that the sum of $$$n$$$ over all cases does not exceed $$$2 \cdot 10^5$$$.
 
@@ -52,7 +54,7 @@ It is guaranteed that the sum of $$$n$$$ over all cases does not exceed $$$2 \cd
 
 Output $$$t$$$ strings, each of which is the answer to the corresponding test case. As an answer, output "YES" if this tree is *symmetrical*, and "NO" otherwise.
 
-> 输出 $$$$t$$$ 个字符串，每个字符串表示测试用例的结果。输出 "YES" 表示树是对称的，反之输出 "NO"。
+> 输出 $$$t$$$ 个字符串，每个字符串表示测试用例的结果。输出 "YES" 表示树是对称的，反之输出 "NO"。
 
 You can output the answer in any case (for example, the strings "yEs", "yes", "Yes" and "YES" will be recognized as a positive answer).
 
@@ -82,7 +84,7 @@ codeforces有一篇博客很好的解决了这个问题，可见 [这篇博客](
 
 这个例子说明了简单hash是不可行的，原博客给出了一个更优雅的hash算法。
 
-$$$ h(v) = 42 + \sum_{u \in sorted_by_hash(child(v))} h(u)^2 + h(u) * p^i $$$
+$$$ h(v) = 42 + \sum_{u \in sorted\_by\_hash(child(v))} h(u)^2 + h(u) * p^i $$$
 
 然后对大素数取模即可。甚至不需要双模hash，单模hash也可过这个题。
 
