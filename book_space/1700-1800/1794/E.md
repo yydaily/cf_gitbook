@@ -20,9 +20,9 @@ The first line contains one integer $$$n$$$ ($$$2\le n\le 2\cdot 10^5$$$) — th
 
 > 第一行包含一个整数 $$$n$$$ ($$$2\le n\le 2\cdot 10^5$$$) —— 表示树上的节点数
 
-The second line contains $$$n - 1$$$ integers $$$a_1,a_2,\ldots,a_{n-1}$$$ ($$$0\le a_i &lt; n$$$) — the given list.
+The second line contains $$$n - 1$$$ integers $$$a_1,a_2,\ldots,a_{n-1}$$$ ($$$0\leq a_i < n$$$) — the given list.
 
-> 第二行包含 $$$n-1$$$ 个整数 $$$a_1,a_2,\ldots,a_{n-1}$$$ ($$$0\le a_i &lt; n$$$) —— 表示上述的列表
+> 第二行包含 $$$n-1$$$ 个整数 $$$a_1,a_2,\ldots,a_{n-1}$$$ ($$$0\leq a_i < n$$$) —— 表示上述的列表
 
 Then, $$$n−1$$$ lines follow. Each of them contains two integers $$$u$$$ and $$$v$$$ ($$$1\le u,v\le n$$$) denoting an edge between vertices $$$u$$$ and $$$v$$$. It is guaranteed that the edges form a tree.
 
