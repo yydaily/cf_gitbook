@@ -1,5 +1,7 @@
 ## Labeling the Tree with Distances
 
+[开启传送门](https://codeforces.com/problemset/problem/1794/E)
+
 You are given an unweighted tree of $$$n$$$ vertices numbered from $$$1$$$ to $$$n$$$ and a list of $$$n-1$$$ integers $$$a_1, a_2, \ldots, a_{n-1}$$$. A tree is a connected undirected graph without cycles. You will use each element of the list to label one vertex. No vertex should be labeled twice. You can label the only remaining unlabeled vertex with any integer. 
 
 > 给定一个包含 $$$n$$$ 个节点的无权树，节点编号从 $$$1$$$ 到 $$$n$$$，并给定一个长度为 $$$n-1$$$ 的整数序列 $$$a_1, a_2, \ldots a_{n-1}$$$。树是指没有环的无向图。你会用上述的列表给每个点标号。每个节点只能被标号一次。你只能给剩下没有标号的点标号。
