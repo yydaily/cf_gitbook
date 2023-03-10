@@ -1,5 +1,7 @@
 ## E. Colored Subgraphs
 
+[开启传送门](https://codeforces.com/problemset/problem/1796/E)
+
 Monocarp has a tree, consisting of $$$n$$$ vertices.
 
 > Monocarp 有一棵树，树包含 $$$n$$$ 个节点。

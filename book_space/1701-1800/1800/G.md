@@ -1,5 +1,7 @@
 ## G. Symmetree
 
+[开启传送门](https://codeforces.com/problemset/problem/1800/G)
+
 Kid was gifted a tree of $$$n$$$ vertices with the root in the vertex $$$1$$$. Since he really like *symmetrical* objects, Kid wants to find out if this tree is *symmetrica*.
 
 > Kid获得了根节点编号为 $$$1$$$ ，总共有 $$$n$$$ 个节点的树作为礼物。由于他喜欢对称结构，他想知道这颗树是否是对称的。

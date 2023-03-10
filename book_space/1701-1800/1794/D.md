@@ -1,5 +1,7 @@
 ## Counting Factorizations
 
+[开启传送门](https://codeforces.com/problemset/problem/1794/D)
+
 The prime factorization of a positive integer $$$m$$$ is the unique way to write it as $$$\displaystyle m=p_1^{e_1}\cdot p_2^{e_2}\cdot \ldots \cdot p_k^{e_k}$$$, where $$$p_1, p_2, \ldots, p_k$$$ are prime numbers, $$$p_1 < p_2 < \ldots < p_k$$$ and $$$e_1, e_2, \ldots, e_k$$$ are positive integers. 
 > 一个正整数 $$$m$$$ 的素因数分解只能写成如下唯一的一种形式：$$$\displaystyle m=p_1^{e_1}\cdot p_2^{e_2}\cdot \ldots \cdot p_k^{e_k}$$$，其中 $$$p_1, p_2, \ldots, p_k$$$ 都是素数，并且 $$$p_1 < p_2 < \ldots < p_k$$$，$$$e_1, e_2, \ldots, e_k$$$ 都是正整数。
 
