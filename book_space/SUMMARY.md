@@ -9,3 +9,6 @@
 		* [E. Colored Subgraphs](./1701-1800/1796/E.md)
 	* 1800
 		* [G. Symmetree](./1701-1800/1800/G.md)
+* 1801-1900
+	* 1801 
+		* [C. Music Festival](./1801-1900/1801/C.md)
